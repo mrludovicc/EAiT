@@ -44,7 +44,7 @@ VALUES
 ('Pork chops', 'Proteins', 'Pork'),
 ('Ground pork', 'Proteins', 'Pork'),
 ('Bacon', 'Proteins', 'Pork'),
-('Hot dog', 'Proteins', 'Pork'),
+ 'dog', 'Proteins', 'Pork'),
 ('Pork loin', 'Proteins', 'Pork'),
 ('Pork fillet', 'Proteins', 'Pork'),
 ('Pepperoni', 'Proteins', 'Pork'),
@@ -82,16 +82,16 @@ VALUES
 ('Procini mushrooms', 'Proteins', 'Vegetarian'),
 ('Wild mushrooms', 'Proteins', 'Vegetarian'),
 ('Enoki', 'Proteins', 'Vegetarian'),
-('Oyster mushrooms', 'Vegetables', 'Mushrooms'),
-('Chanterelle mushrooms', 'Vegetables', 'Mushrooms'),
-('Morel mushrooms', 'Vegetables', 'Mushrooms'),
-('Lions mane mushrooms', 'Vegetables', 'Mushrooms'),
-('Crimini mushrooms', 'Vegetables', 'Mushrooms'),
-('Maitake mushrooms', 'Vegetables', 'Mushrooms'),
-('Porcini mushrooms', 'Vegetables', 'Mushrooms'),
-('Hedgehog mushrooms', 'Vegetables', 'Mushrooms'),
-('Beech mushrooms', 'Vegetables', 'Mushrooms'),
-('King trumpet mushrooms', 'Vegetables', 'Mushrooms')
+('Oyster mushrooms', 'Proteins', 'Vegetarian'),
+('Chanterelle mushrooms', 'Proteins', 'Vegetarian'),
+('Morel mushrooms', 'Proteins', 'Vegetarian'),
+('Lions mane mushrooms', 'Proteins', 'Vegetarian'),
+('Crimini mushrooms', 'Proteins', 'Vegetarian'),
+('Maitake mushrooms', 'Proteins', 'Vegetarian'),
+('Porcini mushrooms', 'Proteins', 'Vegetarian'),
+('Hedgehog mushrooms', 'Proteins', 'Vegetarian'),
+('Beech mushrooms', 'Proteins', 'Vegetarian'),
+('King trumpet mushrooms', 'Proteins', 'Vegetarian')
 ('Walnuts', 'Proteins', 'Vegetarian'),
 ('Peanuts', 'Proteins', 'Vegetarian'),
 ('Almonds', 'Proteins', 'Vegetarian'),
@@ -105,7 +105,7 @@ VALUES
 ('Green beans', 'Proteins', 'Vegetarian'),
 ('Tofu', 'Proteins', 'Vegetarian'),
 
--- Category: vegetable subcategory: roots & Bulbs
+-- Category: Vegetables subcategory: roots & Bulbs
 ('Bell pepper', 'Vegetables', 'Roots & Bulbs'),
 ('Onion', 'Vegetables', 'Roots & Bulbs'),
 ('Garlic', 'Vegetables', 'Roots & Bulbs'),
@@ -114,9 +114,9 @@ VALUES
 ('Red onion', 'Vegetables', 'Roots & Bulbs'),
 ('Shallot', 'Vegetables', 'Roots & Bulbs'),
 ('Sweet potato', 'Vegetables', 'Roots & Bulbs'),
-More potatoes
+
   
--- Category: vegetables Subcategory: Legumes
+-- Category: Vegetables Subcategory: Legumes
 ('Chickpeas', 'Vegetables', 'Legumes'),
 ('Black beans', 'Vegetables', 'Legumes'),
 ('Kidney beans', 'Vegetables', 'Legumes'),
@@ -135,7 +135,7 @@ More potatoes
 ('Mung beans', 'Vegetables', 'Legumes'),
 ('Soybeans', 'Vegetables', 'Legumes')
  
-  --  Category: vegetables Subcategory: Cabbages
+  --  Category: Proteins Subcategory: Cabbages
 ('Broccoli', 'Vegetables', 'Cabbages'),
 ('Cauliflower', 'Vegetables', 'Cabbages'),
 ('Cabbage', 'Vegetables', 'Cabbages'),
@@ -154,7 +154,7 @@ More potatoes
 ('Arugula', 'Vegetables', 'Cabbages'),
 ('Watercress', 'Vegetables', 'Cabbages'),
  
--- Category: vegetables subcategory: Fruit Vegetables
+-- Category: Vegetables subcategory: Fruit Vegetables
 ('Tomatoes', 'Vegetables', 'Fruit Vegetables'),
 ('Cucumber', 'Vegetables', 'Fruit Vegetables'),
 ('Sweet corn', 'Vegetables', 'Fruit Vegetables'),
@@ -163,16 +163,16 @@ More potatoes
 ('Green olives', 'Vegetables', 'Fruit Vegetables'),
 ('Black olives', 'Vegetables', 'Fruit Vegetables'),
 ('Pickles', 'Vegetables', 'Fruit Vegetables'),
-('Bell peppers', 'Vegetables', 'Nightshades'),
-('Jalapeno peppers', 'Vegetables', 'Nightshades'),
-('Chili peppers', 'Vegetables', 'Nightshades'),
-('Paprika', 'Vegetables', 'Nightshades'),
-('Tomatillos', 'Vegetables', 'Nightshades'),
-('Cayenne pepper', 'Vegetables', 'Nightshades'),
-('Tabasco peppers', 'Vegetables', 'Nightshades'),
-('Cherry tomatoes', 'Vegetables', 'Nightshades');
+('Bell peppers', 'Vegetables', 'Fruit Vegetables'),
+('Jalapeno peppers', 'Vegetables', 'Fruit Vegetables'),
+('Chili peppers', 'Vegetables', 'Fruit Vegetables'),
+('Paprika', 'Vegetables', 'Fruit Vegetables'),
+('Tomatillos', 'Vegetables', 'Fruit Vegetables'),
+('Cayenne pepper', 'Vegetables', 'Fruit Vegetables'),
+('Tabasco peppers', 'Vegetables', 'Fruit Vegetables'),
+('Cherry tomatoes', 'Vegetables', 'Fruit Vegetables');
 
--- ******* Category: fruit subcategory: common fruits & Berries
+-- ******* Category: fruit subcategory: common fruits & Common Fruits
 
 ('Apple', 'Fruit', 'Common Fruits'),
 ('Banana', 'Fruit', 'Common Fruits'),
@@ -184,76 +184,75 @@ More potatoes
 ('Apricot', 'Fruit', 'Common Fruits'),
 ('Grape', 'Fruit', 'Common Fruits'),
 ('Pineapple', 'Fruit', 'Common Fruits'),
-('Strawberry', 'Fruit', 'Berries'),
-('Raspberry', 'Fruit', 'Berries'),
-('Blueberry', 'Fruit', 'Berries'),
-('Blackberry', 'Fruit', 'Berries'),
-('Cranberry', 'Fruit', 'Berries'),
-('Cherry', 'Fruit', 'Berries'),
-('Frozen berry mix', 'Fruit', 'Berries'),
+('Strawberry', 'Fruit', 'Common Fruits'),
+('Raspberry', 'Fruit', 'Common Fruits'),
+('Blueberry', 'Fruit', 'Common Fruits'),
+('Blackberry', 'Fruit', 'Common Fruits'),
+('Cranberry', 'Fruit', 'Common Fruits'),
+('Cherry', 'Fruit', 'Common Fruits'),
+('Frozen berry mix', 'Fruit', 'Common Fruits'),
 
 
---  ************** Category: fruit subcategory: Citrus_Tropical
-('Lemon', 'Fruit', 'Citrus'),
-('Lime', 'Fruit', 'Citrus'),
-('Orange', 'Fruit', 'Citrus'),
-('Grapefruit', 'Fruit', 'Citrus'),
-('Tangerine', 'Fruit', 'Citrus'),
-('Clementine', 'Fruit', 'Citrus'),
-('Mango', 'Fruit', 'Tropical'),
-('Pineapple', 'Fruit', 'Tropical'),
-('Papaya', 'Fruit', 'Tropical'),
-('Guava', 'Fruit', 'Tropical'),
-('Passion fruit', 'Fruit', 'Tropical'),
-('Kiwano (horned melon)', 'Fruit', 'Tropical'),
-('Watermelon', 'Fruit', 'Melons'),
-('Cantaloupe', 'Fruit', 'Melons'),
-('Honeydew', 'Fruit', 'Melons'),
-('Galia melon', 'Fruit', 'Melons'),
-('Charentais melon', 'Fruit', 'Melons'),
+--  ************** Category: fruit subcategory: Citrus_Tropical_Tropical
+('Lemon', 'Fruit', 'Citrus_Tropical'),
+('Lime', 'Fruit', 'Citrus_Tropical'),
+('Orange', 'Fruit', 'Citrus_Tropical'),
+('Grapefruit', 'Fruit', 'Citrus_Tropical'),
+('Tangerine', 'Fruit', 'Citrus_Tropical'),
+('Clementine', 'Fruit', 'Citrus_Tropical'),
+('Mango', 'Fruit', 'Citrus_Tropical'),
+('Pineapple', 'Fruit', 'Citrus_Tropical'),
+('Papaya', 'Fruit', 'Citrus_Tropical'),
+('Guava', 'Fruit', 'Citrus_Tropical'),
+('Passion fruit', 'Fruit', 'Citrus_Tropical'),
+('Kiwano (horned melon)', 'Fruit', 'Citrus_Tropical'),
+('Watermelon', 'Fruit', 'Citrus_Tropical'),
+('Cantaloupe', 'Fruit', 'Citrus_Tropical'),
+('Honeydew', 'Fruit', 'Citrus_Tropical'),
+('Galia melon', 'Fruit', 'Citrus_Tropical'),
+('Charentais melon', 'Fruit', 'Citrus_Tropical'),
 
 
-  -- Category: Dairy subcategory: Milk&Cream
+  -- Category: Dairy subcategory: Milk & Cream
 
-('Milk', 'Dairy', 'Milk&Cream'),
+('Milk', 'Dairy', 'Milk & Cream'),
 ('Non-fat milk', 'Dairy', 'Milk & Cream'),
 ('2% milk', 'Dairy', 'Milk & Cream'),
 ('Whole milk', 'Dairy', 'Milk & Cream'),
 ('Half and half', 'Dairy', 'Milk & Cream'),
-('Heavy cream', 'Dairy', 'Milk&Cream'),
-('Butter', 'Dairy', 'Milk&Cream'),
-('Cream', 'Dairy', 'Milk&Cream'),
-('Whipped cream', 'Dairy', 'Milk&Cream'),
-('Condensed milk', 'Dairy', 'Milk&Cream'),
-('Evaporated milk', 'Dairy', 'Milk&Cream'),
-('Chocolate milk', 'Dairy', 'Milk&Cream'),
-('Milk powder', 'Dairy', 'Milk&Cream'),
-('Ice cream', 'Dairy', 'Milk&Cream'),
+('Heavy cream', 'Dairy', 'Milk & Cream'),
+('Butter', 'Dairy', 'Milk & Cream'),
+('Cream', 'Dairy', 'Milk & Cream'),
+('Whipped cream', 'Dairy', 'Milk & Cream'),
+('Condensed milk', 'Dairy', 'Milk & Cream'),
+('Evaporated milk', 'Dairy', 'Milk & Cream'),
+('Chocolate milk', 'Dairy', 'Milk & Cream'),
+('Milk powder', 'Dairy', 'Milk & Cream'),
+('Ice cream', 'Dairy', 'Milk & Cream'),
 ('Buttermilk', 'Dairy', 'Milk & Cream'),
 
-  --  ************** Category: Dairy subcategory: Butter & yogurt
-('Ghee', 'Dairy', 'Butter'),
-('Margarine', 'Dairy', 'Butter'),
-('Whipped butter', 'Dairy', 'Butter'),
-('Margarine spread', 'Dairy', 'Butter'),
-('Unsalted butter', 'Dairy', 'Butter'),
-('Salted butter', 'Dairy', 'Butter'),
-('European-style butter', 'Dairy', 'Butter'),
-
-('Yogurt', 'Dairy', 'Yogurt'),
-('Greek yogurt', 'Dairy', 'Yogurt'),
-('Low-fat yogurt', 'Dairy', 'Yogurt'),
-('Non-fat yogurt', 'Dairy', 'Yogurt'),
-('Organic yogurt', 'Dairy', 'Yogurt'),
-('Plant-based yogurt', 'Dairy', 'Yogurt'),
-('Coconut yogurt', 'Dairy', 'Yogurt'),
-('Almond yogurt', 'Dairy', 'Yogurt'),
-('Soy yogurt', 'Dairy', 'Yogurt'),
-('Icelandic yogurt', 'Dairy', 'Yogurt'),
-('Bulgarian yogurt', 'Dairy', 'Yogurt'),
-('Australian-style yogurt', 'Dairy', 'Yogurt'),
-('Drinkable yogurt', 'Dairy', 'Yogurt'),
-('Frozen yogurt', 'Dairy', 'Yogurt'),
+  --  ************** Category: Dairy subcategory: Butters & Yogurts
+('Ghee', 'Dairy', 'Butters & Yogurts'),
+('Margarine', 'Dairy', 'Butters & Yogurts'),
+('Whipped butter', 'Dairy', 'Butters & Yogurts'),
+('Margarine spread', 'Dairy', 'Butters & Yogurts'),
+('Unsalted butter', 'Dairy', 'Butters & Yogurts'),
+('Salted butter', 'Dairy', 'Butters & Yogurts'),
+('European-style butter', 'Dairy', 'Butters & Yogurts'),
+('Yogurt', 'Dairy', 'Butters & Yogurts'),
+('Greek yogurt', 'Dairy', 'Butters & Yogurts'),
+('Low-fat yogurt', 'Dairy', 'Butters & Yogurts'),
+('Non-fat yogurt', 'Dairy', 'Butters & Yogurts'),
+('Organic yogurt', 'Dairy', 'Butters & Yogurts'),
+('Plant-based yogurt', 'Dairy', 'Butters & Yogurts'),
+('Coconut yogurt', 'Dairy', 'Butters & Yogurts'),
+('Almond yogurt', 'Dairy', 'Butters & Yogurts'),
+('Soy yogurt', 'Dairy', 'Butters & Yogurts'),
+('Icelandic yogurt', 'Dairy', 'Butters & Yogurts'),
+('Bulgarian yogurt', 'Dairy', 'Butters & Yogurts'),
+('Australian-style yogurt', 'Dairy', 'Butters & Yogurts'),
+('Drinkable yogurt', 'Dairy', 'Butters & Yogurts'),
+('Frozen yogurt', 'Dairy', 'Butters & Yogurts'),
 
   -- Category: Dairy subcategory: Cheeses
 ('Feta', 'Dairy', 'Cheeses'),
@@ -295,15 +294,6 @@ More potatoes
 ('Rice milk', 'Dairy', 'Lactose-Free'),
 ('Creamer (non-dairy)', 'Dairy', 'Lactose-Free'),
 
-
-  -- *********  Category: Spice and Condiments subcategory: commonly used
-('Salt', 'Spice and Condiments', 'Commonly Used'),
-('Pepper', 'Spice and Condiments', 'Commonly Used'),
-('Sugar', 'Spice and Condiments', 'Commonly Used'),
-('Olive oil', 'Spice and Condiments', 'Commonly Used'),
-('Vegetable oil', 'Spice and Condiments', 'Commonly Used'),
-('Vinegar', 'Spice and Condiments', 'Commonly Used'),
-
   -- *********  Category: Spice and Condiments subcategory: oils
 ('Olive oil', 'Spice and Condiments', 'Oils'),
 ('Canola oil', 'Spice and Condiments', 'Oils'),
@@ -325,29 +315,29 @@ More potatoes
 ('Rice bran oil', 'Spice and Condiments', 'Oils'),
 ('Camelina oil', 'Spice and Condiments', 'Oils')
 
-  -- Category: Spice and Condiments subcategory: Hot Spices
-
-('Chili flake', 'Spice and Condiments', 'Hot Spices'),
-('Chili powder', 'Spice and Condiments', 'Hot Spices'),
-('Paprika', 'Spice and Condiments', 'Hot Spices'),
-('Cayenne', 'Spice and Condiments', 'Hot Spices'),
-('Nutmeg', 'Spice and Condiments', 'Hot Spices'),
-('Turmeric', 'Spice and Condiments', 'Hot Spices'),
-('Clove', 'Spice and Condiments', 'Hot Spices'),
-('Chile pepper', 'Spice and Condiments', 'Hot Spices'),
-('Cardamom', 'Spice and Condiments', 'Hot Spices'),
-('Peppercorn', 'Spice and Condiments', 'Hot Spices'),
-('Fennel seed', 'Spice and Condiments', 'Hot Spices'),
-('Chipotle', 'Spice and Condiments', 'Hot Spices'),
-('Cumin', 'Spice and Condiments', 'Hot Spices'),
-('Ginger', 'Spice and Condiments', 'Hot Spices'),
-('Horseradish', 'Spice and Condiments', 'Hot Spices'),
-('Wasabi', 'Spice and Condiments', 'Hot Spices'),
-('Szechuan peppercorns', 'Spice and Condiments', 'Hot Spices'),
-('Aleppo pepper', 'Spice and Condiments', 'Hot Spices'),
-('Bird eye chili', 'Spice and Condiments', 'Hot Spices'),
-('Habanero pepper', 'Spice and Condiments', 'Hot Spices'),
-('Scotch bonnet pepper', 'Spice and Condiments', 'Hot Spices'),
+  -- Category: Spice and Condiments subcategory 'Spices
+('Pepper', 'Spice and Condiments', 'Spices'),
+('Chili flake', 'Spice and Condiments', 'Spices'),
+('Chili powder', 'Spice and Condiments', 'Spices'),
+('Paprika', 'Spice and Condiments', 'Spices'),
+('Cayenne', 'Spice and Condiments', 'Spices'),
+('Nutmeg', 'Spice and Condiments', 'Spices'),
+('Turmeric', 'Spice and Condiments', 'Spices'),
+('Clove', 'Spice and Condiments', 'Spices'),
+('Chile pepper', 'Spice and Condiments', 'Spices'),
+('Cardamom', 'Spice and Condiments', 'Spices'),
+('Peppercorn', 'Spice and Condiments', 'Spices'),
+('Fennel seed', 'Spice and Condiments', 'Spices'),
+('Chipotle', 'Spice and Condiments', 'Spices'),
+('Cumin', 'Spice and Condiments', 'Spices'),
+('Ginger', 'Spice and Condiments', 'Spices'),
+('Horseradish', 'Spice and Condiments', 'Spices'),
+('Wasabi', 'Spice and Condiments', 'Spices'),
+('Szechuan peppercorns', 'Spice and Condiments', 'Spices'),
+('Aleppo pepper', 'Spice and Condiments', 'Spices'),
+('Bird eye chili', 'Spice and Condiments', 'Spices'),
+('Habanero pepper', 'Spice and Condiments', 'Spices'),
+('Scotch bonnet pepper', 'Spice and Condiments', 'Spices'),
 
   -- Category: Spice and Condiments subcategory: aromatics
 ('Garlic', 'Spice and Condiments', 'Aromatics'),
@@ -363,13 +353,15 @@ More potatoes
 ('Rosemary', 'Spice and Condiments', 'Aromatics'),
 ('Sage', 'Spice and Condiments', 'Aromatics'),
 ('Bay leaves', 'Spice and Condiments', 'Aromatics'),
-('Basil', 'Spice and Condiments', 'Fresh Herbs'),
-('Mint', 'Spice and Condiments', 'Fresh Herbs'),
-('Oregano', 'Spice and Condiments', 'Fresh Herbs'),
-('Dill', 'Spice and Condiments', 'Fresh Herbs'),
+('Basil', 'Spice and Condiments', 'Aromatics'),
+('Mint', 'Spice and Condiments', 'Aromatics'),
+('Oregano', 'Spice and Condiments', 'Aromatics'),
+('Dill', 'Spice and Condiments', 'Aromatics'),
 
   -- Category: Spice and Condiments subcategory: Baking Essentials
 ('Flour', 'Spice and Condiments', 'Baking Essentials'),
+('Sugar', 'Spice and Condiments', 'Baking Essentials'),
+('Icing Sugar', 'Spice and Condiments', 'Baking Essentials'),
 ('Vanilla extract', 'Spice and Condiments', 'Baking Essentials'),
 ('Baking powder', 'Spice and Condiments', 'Baking Essentials'),
 ('Baking soda', 'Spice and Condiments', 'Baking Essentials'),
@@ -382,8 +374,9 @@ More potatoes
 
   -- Category: Spice and Condiments subcategory: condiments
 ('Worcestershire sauce', 'Spice and Condiments', 'Condiments'),
+('Vinegar', 'Spice and Condiments', 'Condiments'),
+('Malt Vinegar', 'Spice and Condiments', 'Condiments'),
 ('Soy sauce', 'Spice and Condiments', 'Condiments'),
-('Hot sauce', 'Spice and Condiments', 'Condiments'),
 ('Mustard', 'Spice and Condiments', 'Condiments'),
 ('Ketchup', 'Spice and Condiments', 'Condiments'),
 ('Mayonnaise', 'Spice and Condiments', 'Condiments'),
@@ -403,9 +396,7 @@ More potatoes
 ('Molasses', 'Spice and Condiments', 'Condiments'),
 ('Agave nectar', 'Spice and Condiments', 'Condiments'),
 
-
   -- Category: Spice and Condiments subcategory: spice blends
-
 ('Curry powder', 'Spice and Condiments', 'Spice Blends'),
 ('Chinese five spice', 'Spice and Condiments', 'Spice Blends'),
 ('Ras el hanout', 'Spice and Condiments', 'Spice Blends'),
@@ -428,17 +419,17 @@ More potatoes
 ('Ranch seasoning', 'Spice and Condiments', 'Spice Blends'),
 ('Cajun seasoning', 'Spice and Condiments', 'Spice Blends'),
 
-  -- ************** Category: Alcohol subcategory: beer, Sprits & wines
-('Beer', 'Alcohol', 'Beer & Spirits'),
-('Rum', 'Alcohol', 'Beer & Spirits'),
-('Cider', 'Alcohol', 'Beer & Spirits'),
-('Bourbon', 'Alcohol', 'Beer & Spirits'),
-('Tequila', 'Alcohol', 'Beer & Spirits'),
-('Sherry', 'Alcohol', 'Beer & Spirits'),
-('Bitters', 'Alcohol', 'Beer & Spirits'),
-('Sake', 'Alcohol', 'Beer & Spirits'),
-('White wine', 'Alcohol', 'Wine'),
-('Red wine', 'Alcohol', 'Wine'),
-('Rice wine', 'Alcohol', 'Wine'),
-('Port wine', 'Alcohol', 'Wine'),
-('Rose wine', 'Alcohol', 'Wine');
+  -- Category: Alcohol subcategory: Beer, Sprits & Wines
+('Beer', 'Alcohol', 'Beer, Sprits & Wines'),
+('Rum', 'Alcohol', 'Beer, Sprits & Wines'),
+('Cider', 'Alcohol', 'Beer, Sprits & Wines'),
+('Bourbon', 'Alcohol', 'Beer, Sprits & Wines'),
+('Tequila', 'Alcohol', 'Beer, Sprits & Wines'),
+('Sherry', 'Alcohol', 'Beer, Sprits & Wines'),
+('Bitters', 'Alcohol', 'Beer, Sprits & Wines'),
+('Sake', 'Alcohol', 'Beer, Sprits & Wines'),
+('White wine', 'Alcohol', 'Beer, Sprits & Wines'),
+('Red wine', 'Alcohol', 'Beer, Sprits & Wines'),
+('Rice wine', 'Alcohol', 'Beer, Sprits & Wines'),
+('Port wine', 'Alcohol', 'Beer, Sprits & Wines'),
+('Rose wine', 'Alcohol', 'Beer, Sprits & Wines');
