@@ -17,7 +17,7 @@ export default function IngredientsPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Submitting preferences:", preferences);
+    // console.log("Submitting preferences:", preferences);
 
     const selectIngredientData =
       window.localStorage.getItem("selectIngredient");
