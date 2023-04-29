@@ -14,7 +14,7 @@ import axios from "axios";
 export default function PreferencePage() {
   const { preferences, handleChangePreferences, selectedAllergies } =
     usePreferences();
-  console.log(Object.values(preferences));
+  // console.log(Object.values(preferences));
   const [disableButton, setDisableButton] = useState(true);
   const navigate = useNavigate();
 
