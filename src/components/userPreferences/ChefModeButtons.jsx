@@ -9,7 +9,7 @@ export default function ChefModeButtons() {
     if (mode === "strictMode") {
       handleChangePreferences("strictMode", true);
       handleChangePreferences("gourmetMode", false);
-      console.log("strict Mode selected");
+      // console.log("strict Mode selected");
     } else if (mode === "gourmetMode") {
       handleChangePreferences("gourmetMode", true);
       handleChangePreferences("strictMode", false);
