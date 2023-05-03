@@ -31,7 +31,7 @@ export default function HomePage() {
           </div>
           <div className="text-button">
             <p className={fadeIn ? "fade-in" : ""}>
-              Let AI help you EAiT better
+            Let's help you EAiT
             </p>
             <a href="/preferences">
               <button className={`btn ${fadeIn ? "fade-in" : ""}`}>

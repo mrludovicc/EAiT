@@ -12,9 +12,9 @@ import { useNavigate } from "react-router-dom";
 
 const steps = [
   "Proteins",
-  "Vegatables",
+  "Vegetables",
   "Fruits",
-  "Starch",
+  "Starches",
   "Dairy",
   "Spices & Condiments",
   "Wine, Beer & Liquors",
